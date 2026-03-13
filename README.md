@@ -38,6 +38,58 @@ Documentation:
 
 ---
 
+# 💻 Installation
+
+Follow these steps to run the project locally.
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/Bergal-Akram/Statistical-Data-Processing-Desktop-Application.git
+cd Statistical-Data-Processing-Desktop-Application
+```
+
+## 2. Create a virtual environment (recommended)
+
+```bash
+python -m venv venv
+```
+
+Activate the environment.
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### macOS / Linux
+
+```bash
+source venv/bin/activate
+```
+
+## 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+# ▶️ Run the Application
+
+After installing the dependencies, run the application with:
+
+```bash
+python main.py
+```
+
+This will launch the desktop interface where you can:
+
+- Load CSV datasets
+- Perform statistical analysis
+- Run PCA visualization
+- Explore the Self-Organizing Map demo
+
 # 🧠 Features
 
 ## 1️⃣ Dataset Management
